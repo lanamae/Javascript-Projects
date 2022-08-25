@@ -298,10 +298,10 @@ $hoverbtn:#b18b02;
         height: 100vh;
 
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 100vw;
         grid-row: 300px 100px;
 
-        padding: 50px;
+        padding: 0px;
 
         .js-img{
             grid-column: 1/2;
@@ -309,7 +309,7 @@ $hoverbtn:#b18b02;
             height: 200px;
             display: flex;
             justify-content: center;
-            align-items: center;
+            
             
 
             img{
@@ -324,30 +324,32 @@ $hoverbtn:#b18b02;
             grid-column: 1/2;
             grid-row: 1/2;
             height: 400px;
-            padding: 50px;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            padding: 0px;
             
 
             h1{
-                font-size: 24px;
-                margin-bottom: 30px;
+                font-size: 25px;
+                margin-top: 50px;
+                margin-bottom: 10px;
                 text-align: center;
             }
 
             p{
                 font-weight: 300;
-                font-size: 15px;
+                font-size: 12px;
                 line-height: 30px;
                 margin-bottom: 30px;
                 text-align: justify;
+                margin: 0px 20px;
             }
 
             .jsSite{
                 background: $primary;
-                width: 356px;
+                width: 256px;
                 height: 50px;
                 border-style: none;
                 border-radius: 20px;
@@ -360,7 +362,7 @@ $hoverbtn:#b18b02;
                 a{
                     text-decoration: none;
                     color: $black;
-                    font-size: 22px;
+                    font-size: 18px;
                     
                     
                 }
@@ -633,7 +635,7 @@ $hoverbtn:#b18b02;
         height: auto;
 
         display: grid;
-        grid-template-columns: .3fr 1fr;
+        grid-template-columns:  1fr;
         grid-row: 1fr;
         margin: 0px;
         padding: 50px;
@@ -641,7 +643,7 @@ $hoverbtn:#b18b02;
         
 
         .aboutdev-content{
-            grid-column: 2/3;
+            grid-column: 1/2;
             grid-row: 1/2;
             padding: 0px;
             

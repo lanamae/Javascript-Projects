@@ -1255,9 +1255,9 @@
     width: 100%;
     height: 100vh;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 100vw;
     grid-row: 300px 100px;
-    padding: 50px;
+    padding: 0px;
   }
   .main .aboutjs .js-img {
     grid-column: 1/2;
@@ -1265,7 +1265,6 @@
     height: 200px;
     display: flex;
     justify-content: center;
-    align-items: center;
   }
   .main .aboutjs .js-img img {
     width: 194px;
@@ -1275,27 +1274,29 @@
     grid-column: 1/2;
     grid-row: 1/2;
     height: 400px;
-    padding: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0px;
   }
   .main .aboutjs .aboutjs-content h1 {
-    font-size: 24px;
-    margin-bottom: 30px;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 10px;
     text-align: center;
   }
   .main .aboutjs .aboutjs-content p {
     font-weight: 300;
-    font-size: 15px;
+    font-size: 12px;
     line-height: 30px;
     margin-bottom: 30px;
     text-align: justify;
+    margin: 0px 20px;
   }
   .main .aboutjs .aboutjs-content .jsSite {
     background: #F5C71A;
-    width: 356px;
+    width: 256px;
     height: 50px;
     border-style: none;
     border-radius: 20px;
@@ -1308,7 +1309,7 @@
   .main .aboutjs .aboutjs-content .jsSite a {
     text-decoration: none;
     color: #000000;
-    font-size: 22px;
+    font-size: 18px;
   }
   .main .snip-projects {
     width: 100%;
@@ -1504,13 +1505,13 @@
     width: 100%;
     height: auto;
     display: grid;
-    grid-template-columns: 0.3fr 1fr;
+    grid-template-columns: 1fr;
     grid-row: 1fr;
     margin: 0px;
     padding: 50px;
   }
   .main .aboutdev .aboutdev-content {
-    grid-column: 2/3;
+    grid-column: 1/2;
     grid-row: 1/2;
     padding: 0px;
     display: flex;
