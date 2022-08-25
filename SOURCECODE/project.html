@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STOP WATCH</title>
+    <link rel="icon" href="/ASSETS/JS LOGO-01.png" type="images/png">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="main-container">
+        
+
+        <div class="menu-bar">
+            <div id="close" onclick="closeMenu()">&times;</div>
+
+            <a href="/SOURCECODE/landing-page.html"><img class="logo" src="/ASSETS/JS LOGO-01.png"></a>
+            <p class="title">JAVASCRIPT PROJECTS</p>
+            <p class="created">created & developed by Lana Mae</p>
+
+            <ul>
+                <button id="stopwatch-show" onclick="showStopwatch()">STOP WATCH</button>
+                <button id="clock-show" onclick="showClock()">CLOCK</button>
+                <button id="calculator-show">CALCULATOR</button>
+                <button id="drumkit-show">DRUMKIT</button>
+                <button id="colorguess-show">COLOR GUESS GAME</button>
+                <button id="hangman-show">HANGMAN GAME</button>
+
+              
+            </ul>
+        </div>
+
+
+
+        <div class="header">
+            
+
+            <div class="toggle-menu" onclick="showMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+          
+
+            <a href="/SOURCECODE/landing-page.html"><img class="logo" src="/ASSETS/JS LOGO-01.png" alt="logo"></a>
+
+            <div class="head">
+                <h1>JAVASCRIPT JAVASCRIPT</h1>
+                <p>created by Lana Mae Galvez</p>
+            </div>    
+            
+        </div>
+
+
+        <div class="project">
+            <div class="info">
+                <h1 class="title-project">WELCOME TO JAVASCRIPT PROJECTS</h1>
+                <p class="des-project">Here are some of my small projects using the javascript programming langugae.
+                    I hope you'lllearn it. Enjoy!
+                </p>
+                <!-- <h1 class="title-project">STOP WATCH PROJECT</h1>
+                <p class="des-project">Creating and building Vanilla JavaScript stopwatch is an easy little project you can
+                    build in a shirt period of time even as a beginner</p> -->
+            </div>
+
+
+           
+            <div class="stop-watch">
+                <p>
+
+                    <span id="hours">00</span>
+                    <span>:</span>
+                    <span id="minutes">00</span>
+                    <span>:</span>
+                    <span id="seconds">00</span>
+                    <span>:</span>
+                    <span id="tens">00</span>
+                </p>
+
+                <button id="btn-start">Start</button>
+                <button id="btn-stop">Stop</button>
+                <button id="btn-reset">Reset</button>
+
+
+            </div>
+
+
+            <div class="clock" id="MyClockDisplay" onload="showTime()">
+
+            </div>
+
+
+        </div>
+    </div>
+
+    
+</body>
+<script src="/SOURCECODE/script.js"></script>
+<script src="stopwatch.js"></script>
+<script src="clock.js"></script>
+</html>
