@@ -1568,7 +1568,7 @@
     background: rgba(245, 199, 26, 0.5);
     display: flex;
     justify-content: space-between;
-    padding: 20px 100px;
+    padding: 20px 20px;
   }
   .main .footer .brand {
     display: flex;
@@ -1577,30 +1577,33 @@
   .main .footer .brand .logo {
     width: 62px;
     height: 71px;
-    margin-right: 50px;
+    margin-right: 20px;
   }
   .main .footer .brand .text h1 {
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 500;
   }
   .main .footer .brand .text h2 {
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 300;
   }
   .main .footer .brand .text p {
     display: inline-block;
-    margin-top: 50px;
-    font-size: 12px;
+    margin-top: 30px;
+    font-size: 10px;
   }
   .main .footer .social-media {
     margin-top: 70px;
   }
   .main .footer .social-media p {
-    font-size: 18px;
+    font-size: 12px;
     font-weight: 300;
   }
+  .main .footer .social-media .icons {
+    display: flex;
+  }
   .main .footer .social-media .icons img {
-    width: 30px;
-    height: 30px;
+    width: 15px;
+    height: 15px;
   }
 }/*# sourceMappingURL=style.css.map */

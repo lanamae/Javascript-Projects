@@ -726,7 +726,7 @@ $hoverbtn:#b18b02;
         background: $secondary;
         display: flex;
         justify-content: space-between;
-        padding: 20px 100px;
+        padding: 20px 20px;
         
         .brand{
             display: flex;
@@ -735,25 +735,25 @@ $hoverbtn:#b18b02;
             .logo{
                 width: 62px;
                 height: 71px;
-                margin-right: 50px;
+                margin-right: 20px;
             }
 
             .text{
                 
                 h1{
-                    font-size: 20px;
+                    font-size: 15px;
                     font-weight: 500;
                 }
 
                 h2{
-                    font-size: 15px;
+                    font-size: 12px;
                     font-weight: 300;
                 }
 
                 p{
                     display: inline-block;
-                    margin-top: 50px;
-                    font-size: 12px;
+                    margin-top: 30px;
+                    font-size: 10px;
 
                 }
             }
@@ -764,15 +764,17 @@ $hoverbtn:#b18b02;
             margin-top: 70px;
 
             p{
-                font-size: 18px;
+                font-size: 12px;
                 font-weight: 300;
             }
 
             .icons{
 
+                display: flex;
+
                 img{
-                    width: 30px;
-                    height: 30px;
+                    width: 15px;
+                    height: 15px;
                     
                 }
             }
