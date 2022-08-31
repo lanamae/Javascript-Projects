@@ -344,7 +344,8 @@ $hoverbtn:#b18b02;
                 line-height: 30px;
                 margin-bottom: 30px;
                 text-align: justify;
-                margin: 0px 20px;
+                margin: 10px;
+                padding: 0px;
             }
 
             .jsSite{
@@ -636,7 +637,7 @@ $hoverbtn:#b18b02;
 
         display: grid;
         grid-template-columns:  1fr;
-        grid-row: 1fr;
+        grid-row: 1fr 1fr;
         margin: 0px;
         padding: 50px;
 
@@ -681,7 +682,7 @@ $hoverbtn:#b18b02;
                 height: 40px;
                 border-style: none;
                 border-radius: 20px;
-                padding: 0px 20px;
+                padding: 0px;
                 
                 
                 a{
@@ -697,10 +698,11 @@ $hoverbtn:#b18b02;
 
         .dev-img{
             grid-column: 1/2;
-            grid-row: 1/2;
+            grid-row: 2/3;
             padding: 0px;
+
             display: flex;
-            flex-direction: column;
+
             justify-content: center;
             align-items: center;
 

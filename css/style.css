@@ -1295,7 +1295,8 @@
     line-height: 30px;
     margin-bottom: 30px;
     text-align: justify;
-    margin: 0px 20px;
+    margin: 10px;
+    padding: 0px;
   }
   .main .aboutjs .aboutjs-content .jsSite {
     background: #F5C71A;
@@ -1509,7 +1510,7 @@
     height: auto;
     display: grid;
     grid-template-columns: 1fr;
-    grid-row: 1fr;
+    grid-row: 1fr 1fr;
     margin: 0px;
     padding: 50px;
   }
@@ -1542,7 +1543,7 @@
     height: 40px;
     border-style: none;
     border-radius: 20px;
-    padding: 0px 20px;
+    padding: 0px;
   }
   .main .aboutdev .aboutdev-content .lanamae a {
     text-decoration: none;
@@ -1551,10 +1552,9 @@
   }
   .main .aboutdev .dev-img {
     grid-column: 1/2;
-    grid-row: 1/2;
+    grid-row: 2/3;
     padding: 0px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
   }
