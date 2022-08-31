@@ -505,7 +505,7 @@ $hoverbtn:#b18b02;
             display: flex;
             justify-content: center;
             align-items: center;
-            
+
             .see-more{
                 background: $lightblack;
                 width: 200px;
@@ -680,3 +680,4 @@ $hoverbtn:#b18b02;
 
 @import "_tablet-home.scss";
 @import "_mobile-home.scss";
+@import "_project.scss";
