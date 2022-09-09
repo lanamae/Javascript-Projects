@@ -16,7 +16,8 @@
   position: fixed;
   overflow: scroll;
   text-align: center;
-  margin-left: 0px;
+  margin-left: -300px;
+  transition: margin 0.5s ease-in;
 }
 .main-project .menu-bar #close {
   color: #F5C71A;

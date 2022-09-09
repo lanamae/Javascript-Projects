@@ -31,7 +31,8 @@ $hoverbtn:#b18b02;
         position: fixed;
         overflow: scroll;
         text-align: center;
-        margin-left: 0px;
+        margin-left: -300px;
+        transition: margin 0.5s ease-in;
 
         #close{
             color: $primary;
