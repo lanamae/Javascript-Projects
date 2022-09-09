@@ -15,12 +15,15 @@
   background: #232B2B;
   position: fixed;
   overflow: scroll;
+  text-align: center;
+  margin-left: 0px;
 }
 .main-project .menu-bar #close {
   color: #F5C71A;
-  font-size: 30px;
+  font-size: 60px;
   font-weight: 500;
   cursor: pointer;
+  margin-left: 200px;
 }
 .main-project .menu-bar .logo {
   width: 70px;
@@ -53,4 +56,34 @@
   border-radius: 15px;
   color: #000000;
   background: #F5C71A;
+}
+.main-project .menu-bar.hide {
+  margin-left: -300px;
+}
+.main-project .menu-bar.show {
+  margin-left: 0px;
+}
+.main-project .header {
+  width: 100%;
+  height: 80px;
+  padding: 20px 120px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-project .header .toggle-menu {
+  width: 50px;
+  cursor: pointer;
+}
+.main-project .header .toggle-menu span {
+  display: block;
+  content: " ";
+  background: #000000;
+  width: 100%;
+  height: 4px;
+  margin-bottom: 10px;
+}
+.main-project .header .logo {
+  width: 70px;
+  height: 70px;
 }/*# sourceMappingURL=project.css.map */
